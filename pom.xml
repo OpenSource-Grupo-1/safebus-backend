@@ -14,7 +14,7 @@
     <name>safebus-backend</name>
     <description>SafeBus - Sistema de seguridad para conductores de buses en Lima</description>
     <properties>
-        <java.version>26</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -68,7 +68,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.15.0</version>
                 <configuration>
-                    <release>26</release>
+                    <release>21</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
