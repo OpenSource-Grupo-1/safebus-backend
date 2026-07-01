@@ -13,10 +13,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins(
+                        .allowedOriginPatterns(
                                 "http://localhost:4200",
                                 "https://safebus-frontend.vercel.app",
-                                "https://safebus-frontend-iyuep8hps-carlosblancas969s-projects.vercel.app"
+                                "https://safebus-frontend-*-carlosblancas969s-projects.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
                         .allowedHeaders("*");
