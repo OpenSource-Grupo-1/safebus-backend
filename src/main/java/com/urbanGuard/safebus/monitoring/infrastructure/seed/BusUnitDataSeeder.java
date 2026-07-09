@@ -5,7 +5,7 @@ import com.urbanGuard.safebus.monitoring.domain.model.commands.CreateBusUnitComm
 import com.urbanGuard.safebus.monitoring.infrastructure.persistence.jpa.BusUnitRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
+// trigger redeploy
 /**
  * Crea las 7 unidades de bus de demo al iniciar la aplicación, solo si aún no existenLas placas coinciden 1 a 1 con las que usa el frontend para poder asociarlas a cada conductor
  */
